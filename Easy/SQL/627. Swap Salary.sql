@@ -27,4 +27,4 @@ SET sex=(CASE WHEN sex='m'
 Efficient Solution using XOR Gate:
 
 UPDATE salary
-SET sex= CHAR(ASCII('f')^ASCII('m')^ASCII(sex);
+SET sex= CHAR(ASCII('f')^ASCII('m')^ASCII(sex));
